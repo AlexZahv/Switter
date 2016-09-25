@@ -1,0 +1,392 @@
+body {
+
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    margin: 0px auto auto auto;
+    background-color: #36b9ff;
+}
+
+p {
+    padding: 0px;
+    text-align: justify;
+    margin: 0px;
+    line-height: 20px;
+}
+
+p.welcome {
+    padding: 30px 35px 0 35px;
+}
+
+p.testimonial {
+    font-style: italic;
+    padding: 5px 15px 0 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover.read_more {
+    text-decoration: underline;
+}
+
+img.left_img {
+    float: left;
+    padding: 3px 25px 3px 3px;
+}
+
+#main_container {
+    width: 821px;
+    height: auto;
+    margin: auto;
+    padding: 0px;
+}
+
+#header {
+    width: 821px;
+    height: 135px;
+    margin-top: 10px;
+    padding: 0px;
+    background: url("../img/switter_logo_new.png") no-repeat center;
+}
+
+.logo {
+    padding: 30px 0 0 0px;
+
+}
+
+.title {
+    width: auto;
+    padding: 2px 0 10px 0;
+    font-size: 17px;
+    color: #2e2721;
+    font-weight: bold;
+}
+
+/*---------------- menu tab----------------------*/
+.menu {
+    width: 821px;
+    height: 42px;
+    margin-top: -10px;
+
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0 0 0 15px;
+    margin: 0px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    float: left;
+    height: 42px;
+    border: none;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 42px;
+    font-size: 14px;
+    background-color: #337ab7;
+    border: solid 1px #000000;
+    border-radius: 3px;
+}
+
+.menu ul li a:hover {
+    float: left;
+    height: 42px;
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 42px;
+    font-size: 14px;
+    border-color: #ffffff;
+}
+
+.swit, #new_swit, .personal_page_container, .friends_container,.comment,#new_comment {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: solid #080808;
+    width: 700px;
+    display: inline-block;
+    margin-left: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.center_content {
+    margin-top: 10px;
+    width: 821px;
+    height: auto;
+    clear: both;
+    padding: 25px 0 30px 0;
+    background-color: #36b9ff;
+
+    text-align: center;
+}
+
+.login_form_row {
+    float: left;
+    padding: 4px 0 4px 0;
+}
+
+label.login_label {
+    width: 70px;
+    float: left;
+    padding: 3px 5px 0 0;
+    color: #000;
+    text-align: right;
+}
+
+.info_label {
+    float: left;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#new_message_title, #message_body {
+    float: left;
+    clear: both;
+    margin-bottom: 7px;
+    border: solid #000000 1px;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 14px;
+    color: #000000;
+}
+
+#message_body {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    height: 120px;
+}
+
+/*----------------------list-------------------------*/
+ul.list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul.list li {
+    list-style: none;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 8px 0 8px 0;
+}
+
+ul.list li a {
+    height: 24px;
+    width: auto;
+    padding: 0 0 0 15px;
+    margin: 0;
+    color: #36322b;
+    text-align: left;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+ul.list li span {
+    height: 24px;
+    width: 24px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+    text-align: center;
+    float: left;
+    float: left;
+    line-height: 24px;
+    background-color: #36b9ff;
+}
+
+ul.list li a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    width: 821px;
+    height: 50px;
+    clear: both;
+    color: #837d7b;
+}
+
+.left_footer {
+    float: left;
+    padding: 20px 0 0 0;
+}
+
+#footer a {
+    color: #837d7b;
+    padding: 0 8px 0 8px;
+    text-decoration: none;
+}
+
+.right_footer {
+    float: right;
+    padding: 15px 5px 0 0;
+}
+
+.avatar {
+    width: 15%;
+    float: left;
+
+}
+
+.message {
+    width: 78%;
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    background-color: #ffffff;
+
+    padding-top: 5px;
+    padding-left: 5px;
+
+}
+
+.more-form {
+    float: right;
+    display: inline-block;
+    padding-top: 10px;
+
+}
+
+.swit_button {
+    margin-right: 10px;
+    padding: 5px;
+    border: solid #000000 1px;
+    border-radius: 3px;
+}
+
+.animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+.user-info {
+    float: left;
+    clear: both
+}
+
+.user-info h5 {
+    font-size: 10px;
+    float: left;
+    margin-top: 0px;
+}
+
+#new_swit_button {
+    color: #000000;
+    padding: 3px;
+    width: 80px;
+    background-color: #ffffff;
+    display: inline-block;
+    float: left;
+    border: solid 1px #000000;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit_button {
+    float: right;
+    padding: 5px;
+    width: 90px;
+    border: solid #000000 1px;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #36b9ff;
+}
+
+.message_body {
+    word-wrap: break-word;
+    font-size: 16px;
+    color: #000000;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 35px;
+}
+
+.swit_button {
+    color: #000000;
+    background-color: #36b9ff;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.person_props {
+    float: left;
+
+}
+
+.person_props_details {
+    float: left;
+    color: mediumblue;
+}
+
+.clear_col {
+    width: 10%;
+}
+
+.name_details {
+    font-size: 20px;
+    color: #000000;
+    clear: both;
+}
+
+.name_friends_list {
+    clear: both;
+    float: left;
+    margin: auto;
+    color: darkblue
+}
+
+.avatar_preview {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    border: solid #000000 1px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.error {
+    font-size: 10px;
+    color: red;
+    text-align: center;
+    background-color: #080808;
+}
+
+#followers_label, #subscribed_label {
+    background-color: #36b9ff;
+    border: solid 1px black;
+    border-radius: 3px;
+    width: 100%;
+    cursor: hand;
+}
+#followers_label:hover, #subscribed_label:hover {
+    cursor: pointer;
+}
+#followers_label. a:hover, #subscribed_label a:hover {
+    cursor: hand;
+}
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+    cursor: pointer;
+}
+.upload_avatar{
+    border: solid 1px black;
+    border-radius: 3px;
+    width: 100%;
+}

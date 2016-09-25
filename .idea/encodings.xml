@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/controllers/SwitterController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/dao/HibernateUtil.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/dao/SwitterDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/dao/impl/PostgresqlSwitterDaoImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/users/Account.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/users/Comment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/users/Swit.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/users/service/SwitService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/users/service/UserService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/users/service/impl/SwitsServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/alex/users/service/impl/UserServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/locales" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/springconfig.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/resources" charset="UTF-8" />
+  </component>
+</project>

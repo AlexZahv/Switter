@@ -1,0 +1,22 @@
+body{
+    background-color: #36b9ff;
+}
+#twit-container {
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    background-color: #1b6d85;
+    text-align: center;
+}
+
+#twit-message {
+    background-color: #2aabd2;
+}
+.container{
+    max-width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -200px;
+}
